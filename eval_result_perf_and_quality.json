@@ -1,1 +1,44 @@
-{"rows": [{"inputs.id": 1, "inputs.description": "Evaluate the model", "inputs.query": "What is the capital of France?", "inputs.context": "You are a geography teacher.", "inputs.response": "As a geography teacher, I can tell you that the capital of France is Paris. It's located in the north-central part of the country and is known for its iconic landmarks like the Eiffel Tower and Louvre Museum. Paris is also recognized as a global center for art, fashion, gastronomy, and culture.", "inputs.ground_truth": "Paris", "outputs.BleuScoreEvaluator.bleu_score": 0.0052034246, "outputs.F1ScoreEvaluator.f1_score": 0.042553191500000004, "outputs.GleuScoreEvaluator.gleu_score": 0.0042735043000000006, "outputs.MeteorScoreEvaluator.meteor_score": 0.0724637681, "outputs.RougeScoreEvaluator.rouge_precision": 0.0185185185, "outputs.RougeScoreEvaluator.rouge_recall": 1.0, "outputs.RougeScoreEvaluator.rouge_f1_score": 0.0363636364}, {"inputs.id": 1, "inputs.description": "Evaluate the model", "inputs.query": "Where is Wineglass Bay?", "inputs.context": "You are a geography teacher.", "inputs.response": "Wineglass Bay is located in Freycinet National Park on the eastern coast of Tasmania, which is an island state of Australia. It's renowned for its spectacular white sand beach, turquoise waters, and stunning red pink granite peaks that form the bay's background. Visitors often hike to the Wineglass Bay Lookout for panoramic views of the bay.", "inputs.ground_truth": "Wineglass Bay is located on the Freycinet Peninsula on the east coast of Tasmania, Australia.", "outputs.BleuScoreEvaluator.bleu_score": 0.0875520845, "outputs.F1ScoreEvaluator.f1_score": 0.3125, "outputs.GleuScoreEvaluator.gleu_score": 0.112, "outputs.MeteorScoreEvaluator.meteor_score": 0.3225806452, "outputs.RougeScoreEvaluator.rouge_precision": 0.18965517240000002, "outputs.RougeScoreEvaluator.rouge_recall": 0.7333333333000001, "outputs.RougeScoreEvaluator.rouge_f1_score": 0.301369863}], "metrics": {"BleuScoreEvaluator.bleu_score": 0.046377754550000004, "F1ScoreEvaluator.f1_score": 0.17752659575000002, "GleuScoreEvaluator.gleu_score": 0.05813675215, "MeteorScoreEvaluator.meteor_score": 0.19752220665, "RougeScoreEvaluator.rouge_precision": 0.10408684545, "RougeScoreEvaluator.rouge_recall": 0.86666666665, "RougeScoreEvaluator.rouge_f1_score": 0.1688667497}, "studio_url": null}
+{
+    "rows": [
+        {
+            "inputs.id": 1,
+            "inputs.description": "Evaluate the model",
+            "inputs.query": "What is the capital of France?",
+            "inputs.context": "You are a geography teacher.",
+            "inputs.response": "As a geography teacher, I can tell you that the capital of France is Paris. It's located in the north-central part of the country and is known for its iconic landmarks like the Eiffel Tower and Louvre Museum. Paris is also recognized as a global center for art, fashion, gastronomy, and culture.",
+            "inputs.ground_truth": "Paris",
+            "outputs.BleuScoreEvaluator.bleu_score": 0.0052034246,
+            "outputs.F1ScoreEvaluator.f1_score": 0.042553191500000004,
+            "outputs.GleuScoreEvaluator.gleu_score": 0.0042735043000000006,
+            "outputs.MeteorScoreEvaluator.meteor_score": 0.0724637681,
+            "outputs.RougeScoreEvaluator.rouge_precision": 0.0185185185,
+            "outputs.RougeScoreEvaluator.rouge_recall": 1.0,
+            "outputs.RougeScoreEvaluator.rouge_f1_score": 0.0363636364
+        },
+        {
+            "inputs.id": 1,
+            "inputs.description": "Evaluate the model",
+            "inputs.query": "Where is Wineglass Bay?",
+            "inputs.context": "You are a geography teacher.",
+            "inputs.response": "Wineglass Bay is located in Freycinet National Park on the eastern coast of Tasmania, which is an island state of Australia. It's renowned for its spectacular white sand beach, turquoise waters, and stunning red pink granite peaks that form the bay's background. Visitors often hike to the Wineglass Bay Lookout for panoramic views of the bay.",
+            "inputs.ground_truth": "Wineglass Bay is located on the Freycinet Peninsula on the east coast of Tasmania, Australia.",
+            "outputs.BleuScoreEvaluator.bleu_score": 0.0875520845,
+            "outputs.F1ScoreEvaluator.f1_score": 0.3125,
+            "outputs.GleuScoreEvaluator.gleu_score": 0.112,
+            "outputs.MeteorScoreEvaluator.meteor_score": 0.3225806452,
+            "outputs.RougeScoreEvaluator.rouge_precision": 0.18965517240000002,
+            "outputs.RougeScoreEvaluator.rouge_recall": 0.7333333333000001,
+            "outputs.RougeScoreEvaluator.rouge_f1_score": 0.301369863
+        }
+    ],
+    "metrics": {
+        "BleuScoreEvaluator.bleu_score": 0.046377754550000004,
+        "F1ScoreEvaluator.f1_score": 0.17752659575000002,
+        "GleuScoreEvaluator.gleu_score": 0.05813675215,
+        "MeteorScoreEvaluator.meteor_score": 0.19752220665,
+        "RougeScoreEvaluator.rouge_precision": 0.10408684545,
+        "RougeScoreEvaluator.rouge_recall": 0.86666666665,
+        "RougeScoreEvaluator.rouge_f1_score": 0.1688667497
+    },
+    "studio_url": null
+}
